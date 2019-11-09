@@ -1,5 +1,5 @@
 # RecordVRCWithGeForceExperience
-Record VRC with GeForce Exprerience
+Record VRC with GeForce Experience
 
 # Installation
 
@@ -11,17 +11,25 @@ Record VRC with GeForce Exprerience
 
 ## Install VaNiiMenu
 Download VaNiiMenu: refer to https://sabowl.sakura.ne.jp/gpsnmeajp/unity/vaniimenu/
-Please extract any directory: I recommend put on `C:\VaNiiMenu`
+Please extract to any directory: I recommend to put on `C:\VaNiiMenu`
 
 ## Install RecordVRCWithGeForceExperience
 Download RecordVRCWithGeForceExperience by https://github.com/forno/RecordVRCWithGeForceExperience/releases
-Please extract any directory: I recommend put on `C:\RecordVRCWithGeForceExperience`
+Please extract to any directory: I recommend to put on `C:\RecordVRCWithGeForceExperience`
 
 ## Setup The VaNiiMenu
 Please fix `/path/to/VaNiiMenu/config/Launcher.json` with
 
 ```json
 "App1": {
+	"ApplicationName": "Replay VRC with GeForce",
+	"FilePath": "recordReplayVRC.bat",
+	"WorkingDirectory": "C:\\RecordVRCWithGeForceExperience",
+	"Arguments": "",
+	"StartupDialogMainText": "Record VRC with GeForce Experience?",
+	"StartupDialogSubText": "押すごとに過去の映像を録画"
+},
+"App2": {
 	"ApplicationName": "Record VRC with GeForce",
 	"FilePath": "recordVRC.bat",
 	"WorkingDirectory": "C:\\RecordVRCWithGeForceExperience",
@@ -29,31 +37,31 @@ Please fix `/path/to/VaNiiMenu/config/Launcher.json` with
 	"StartupDialogMainText": "Record VRC with GeForce Experience?",
 	"StartupDialogSubText": "起動と停止を押すごとに切り替え"
 },
-"App2": {
-	"ApplicationName": "Replay VRC with GeForce",
-	"FilePath": "recordReplayVRC.bat",
-	"WorkingDirectory": "C:\\RecordVRCWithGeForceExperience",
-	"Arguments": "",
-	"StartupDialogMainText": "Record VRC with GeForce Experience?",
-	"StartupDialogSubText": "押すたびにインスタンスリプレイが保存されます"
-},
 ```
 
-Note: You should fix WorkingDirectory path to your install directory. (if you follow my recommend, you just do nothing)
+Note: You should fix WorkingDirectory path to your install directory. (if you follow my recommendations, you just do nothing)
 
 ## Finish
-You just see `Record VRC with GeForce` in Lunch menu on VaNiiMenu.
+You just see `Record VRC with GeForce` in the Lunch menu on VaNiiMenu.
 
 # Usage
-It have togle function.
+## RecordVRC
+It has a toggle function.
 
 You launch RecordVRCWithGeForceExperience once, then start recording.
-And you launch it twice time, then stop recording.
+And you launch it twice a time, then stop recording.
 
 Sample Video:
 
 https://twitter.com/forno_recsys/status/1191731372467146752
 
+## ReplayVRC
+It needs to prepare.
+You should start the instant replay function of GeForce Experience.
+You just push Alt+Shift+F10.
+
+You launch ReplayVRC then, It saves 3 minutes video.
+
 ## CAUTION
-- ReForce Experience are already installed for GTX series GPUs. But, others are not supperted.
+- GeForce Experience are already installed for GTX series GPUs. But, others are not supportted.
 - You should set up the GeForce Experience before using this software.
