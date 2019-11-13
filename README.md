@@ -41,6 +41,10 @@ Please fix `/path/to/VaNiiMenu/config/Launcher.json` with
 
 Note: You should fix WorkingDirectory path to your install directory. (if you follow my recommendations, you just do nothing)
 
+Here are my settings. You just replace values for any "Appx".
+
+![image](https://user-images.githubusercontent.com/11057257/68523301-66eb5600-02fa-11ea-8fec-ca20ec678bc4.png)
+
 ## Finish
 You just see `Record VRC with GeForce` in the Lunch menu on VaNiiMenu.
 
