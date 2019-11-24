@@ -70,6 +70,13 @@ You just push Alt+Shift+F10.
 
 You launch ReplayVRC then, It saves 3 minutes video.
 
+### Description with image
+This is an **unavailable** state. ReplayVRC doesn't affect to a record.
+![image](https://user-images.githubusercontent.com/11057257/69497662-f57aec80-0f22-11ea-9ca0-14dedebf7b30.png)
+
+You **should** turn on the instant replay function.
+![image](https://user-images.githubusercontent.com/11057257/69497638-cfede300-0f22-11ea-91a9-83035789c53d.png)
+
 ## CAUTION
 - GeForce Experience are already installed for GTX series GPUs. But, others are not supportted.
 - You should set up the GeForce Experience before using this software.
